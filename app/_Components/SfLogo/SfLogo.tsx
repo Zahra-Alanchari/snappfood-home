@@ -5,7 +5,7 @@ import logo from "../../../public/assets/Logo/Screenshot 2024-03-19 at 3.59.12â€
 const SfLogo = () => {
     return (
         <div>
-            <Image src={logo} alt="logo"/>
+            <Image src={logo} alt="logo" width={100} height={50}/>
         </div>
     );
 };

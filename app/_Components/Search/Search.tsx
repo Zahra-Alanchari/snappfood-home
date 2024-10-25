@@ -1,10 +1,11 @@
 import React from 'react';
+import { SearchInput, SearchWrapper } from './search.style';
 
 const Search = () => {
     return (
-        <div>
-            <input type="text" placeholder='جست و جو در اسنپ فود' />
-        </div>
+        <SearchWrapper>
+            <SearchInput type="text" placeholder='جست و جو در اسنپ فود' />
+        </SearchWrapper>
     );
 };
 

@@ -1,0 +1,400 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "restaurant",
+      "name": "رستوران",
+      "image": "/assets/header/restaurant-desktop.png",
+      "hasOff": true,
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "supermarket",
+      "name": "سوپرمارکت",
+      "image": "/assets/header/supermarket-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "cafe",
+      "name": "کافه",
+      "image": "/assets/header/cafe-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "confectionary",
+      "name": "شیرینی",
+      "image": "/assets/header/confectionary-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "bakery",
+      "name": "نانوایی",
+      "image": "/assets/header/bread-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "fruit",
+      "name": "میوه",
+      "image": "/assets/header/fruit-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "protein",
+      "name": "پروتیین",
+      "image": "/assets/header/protein-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "icecream",
+      "name": "ابمیوه بستنی",
+      "image": "/assets/header/icecream-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "dairy",
+      "name": "لبنیات",
+      "image": "/assets/header/dairy-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "flower",
+      "name": "گل و گیاه",
+      "image": "/assets/header/flower-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "attari",
+      "name": "عطاری",
+      "image": "/assets/header/attari-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
+    }
+  ]
+}
