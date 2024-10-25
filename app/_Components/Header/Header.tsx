@@ -9,7 +9,7 @@ import styled from "styled-components";
 import Category from "../Category/Category";
 const Wrapperx = styled.div`
   /* background-color: red; */
-  height: 8vh;
+  height: 9vh;
   display: flex;
   direction: rtl;
   align-items: center;

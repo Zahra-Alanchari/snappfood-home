@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const SearchInput = styled.input`
     width: 480px;
-    height: 70px;
+    height: 40px;
     border-radius: 8px;
-    background-color: #f7f5f5;
+    background-color: lightgrey;
     border: 0;
 `
 export const SearchWrapper = styled.div`
