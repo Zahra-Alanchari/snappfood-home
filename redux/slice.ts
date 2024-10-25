@@ -8,6 +8,7 @@ const initialState = {
   id: null,
 };
 
+
 const productSlice = createSlice({
   name: "Products",
   initialState,
@@ -22,6 +23,7 @@ const productSlice = createSlice({
     });
   },
 });
+
 
 export const { updateSelectedId } = productSlice.actions;
 export default productSlice.reducer;

@@ -1,12 +1,23 @@
-import React from 'react';
-import { SearchInput, SearchWrapper } from './search.style';
+import React from "react";
+import {
+  SearchIconWrapper,
+  SearchInput,
+  SearchWrapper,
+  Wrapper,
+} from "./search.style";
+import SearchIcon from "@/public/assets/icon/SearchIcon";
 
 const Search = () => {
-    return (
-        <SearchWrapper>
-            <SearchInput type="text" placeholder='جست و جو در اسنپ فود' />
-        </SearchWrapper>
-    );
+  return (
+    <Wrapper>
+      <SearchWrapper>
+        <SearchInput type="text" placeholder="جست و جو در اسنپ فود" />
+        <SearchIconWrapper>
+          <SearchIcon />
+        </SearchIconWrapper>
+      </SearchWrapper>
+    </Wrapper>
+  );
 };
 
 export default Search;

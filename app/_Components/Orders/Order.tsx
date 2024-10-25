@@ -1,7 +1,7 @@
-import Image from "next/image";
 import React from "react";
-import order from "../../../public/assets/icon/Screen Shot 1403-08-02 at 23.05.37.png";
+
 import styled from "styled-components";
+import OrderIcon from "@/public/assets/icon/OrderIcon";
 
 const OrderWrapper = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ const OrderWrapper = styled.div`
 const Order = () => {
   return (
     <OrderWrapper>
-      <Image src={order} alt="order" width={35} height={30} />
+      <OrderIcon />
       <span>سفارش ها</span>
     </OrderWrapper>
   );

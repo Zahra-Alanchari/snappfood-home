@@ -1,4 +1,4 @@
-import { fetchgetAllProduct } from "@/redux/action";
+import { fetchgetAllCategory, fetchgetAllProduct } from "@/redux/action";
 import { AppDispatch } from "@/redux/store";
 import { RootState } from "@reduxjs/toolkit/query";
 import Image from "next/image";
@@ -7,28 +7,28 @@ import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
 
 const ProductWrapper = styled.div`
-    display: flex;
-    padding: 1%;
-    direction: rtl;
-    
-`
+  display: flex;
+  padding: 1%;
+  direction: rtl;
+`;
 const ProductItem = styled.div`
-    border: 1px solid #dedede;
-    background-color: #f7f5f5;
-    border-radius: 10px;
-    margin-left: 20px;
-    height: 140px ;
-    width: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-`
+  border: 1px solid #dedede;
+  background-color: #f7f5f5;
+  border-radius: 10px;
+  margin-left: 20px;
+  height: 140px;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+`;
 
 const Category = () => {
   const dispatch = useDispatch<AppDispatch>();
   const data = useSelector((state: RootState) => state.product.product);
-  console.log(data, "data");
+  const data2 = useSelector((state: RootState) => state.item.item);
+  console.log(data2, "data2");
 
   useEffect(() => {
     dispatch(fetchgetAllProduct());
@@ -42,6 +42,7 @@ const Category = () => {
           <span>{item.name}</span>
         </ProductItem>
       ))}
+       
     </ProductWrapper>
   );
 };

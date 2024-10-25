@@ -6,9 +6,7 @@ import Order from "../Orders/Order";
 import SfLogo from "../SfLogo/SfLogo";
 import Address from "../Address/Address";
 import styled from "styled-components";
-import Category from "../Category/Category";
 const Wrapperx = styled.div`
-  /* background-color: red; */
   height: 9vh;
   display: flex;
   direction: rtl;
