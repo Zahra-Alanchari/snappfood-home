@@ -1,19 +1,23 @@
 export interface RootState {
-    product: {
-      product: Product["data"];
-      id: number | null;
-    };
-  }
+  product: {
+    product: Product["data"];
+    id: number | null;
+  };
+  item: {
+    item: Product["data"];
+    id: number | null;
+  };
+ 
+}
 
-  export interface Product {
-    data: Array<ProductDetail>;
-  }
-  export interface ProductDetail {
-    id: number;
-    category: string,
-    name: string,
-    hasOff: boolean,
-    image:string,
+export interface Product {
+  data: Array<ProductDetail>;
+}
+export interface ProductDetail {
+  id: number;
+  category: string;
+  name: string;
+  hasOff: boolean;
+  image: string;
 
-    
-  }
+}

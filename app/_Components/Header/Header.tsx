@@ -7,12 +7,11 @@ import SfLogo from "../SfLogo/SfLogo";
 import Address from "../Address/Address";
 import styled from "styled-components";
 const Wrapperx = styled.div`
-  height: 9vh;
+  height: 10vh;
   display: flex;
   direction: rtl;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 0 5px lightgray;
 `;
 
 const Header = () => {

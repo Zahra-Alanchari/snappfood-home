@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <Provider store={store}>
       <html lang="en">
-        <body style={{margin:"0", padding:"0", width:"100%", backgroundColor:"#fffafa"}}>{children}</body>
+        <body style={{margin:"0", padding:"0", width:"100%", backgroundColor:"#FF38AC"}}>{children}</body>
       </html>
     </Provider>
   );

@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import { fetchgetAllCategory, fetchgetAllNewItem, fetchgetAllProduct } from "./action";
+import {  fetchgetAllNewItem } from "./action";
 // import { RootState } from "@/type";
 
 const initialState = {

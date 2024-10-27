@@ -3,28 +3,28 @@
     {
       "id": 1,
       "name": "شیراز",
-      "image": "/assets/foodCategory/website_image_irani_1.jpg",
-      "headerImage": "",
+      "image": "/assets/newInSf/profile/67024b6b62322.jpg",
+      "headerImage": "/assets/newInSf/header/05-2.jpg",
       "score": "",
-      "category": "ایرانی،اش و حلیم",
+      "category": "ایرانی، اش ، حلیم",
       "express": false,
       "deliveryPrice": "۳۵،۰۰۰ تومان"
     },
     {
         "id": 2,
         "name": "برگر هیزمی",
-        "image": "/assets/foodCategory/website_image_irani_1.jpg",
-        "headerImage": "",
+        "image": "/assets/newInSf/profile/670136f1bed04.jpg",
+        "headerImage": "/assets/newInSf/header/20.jpg",
         "score": "۱",
         "category": "فست فود، پیتزا ایتالیایی",
-        "express": false,
+        "express": true,
         "deliveryPrice": "۳۵،۰۰۰ تومان"
       },
       {
         "id": 3,
         "name": "رستوران اعیان",
-        "image": "/assets/foodCategory/website_image_irani_1.jpg",
-        "headerImage": "",
+        "image": "/assets/newInSf/profile/66f8fc321176b.jpg",
+        "headerImage": "/assets/newInSf/header/07.jpg",
         "score": "3",
         "category": "ایرانی، چلو خورشت، چلو کباب",
         "express": false,
@@ -33,11 +33,11 @@
       {
         "id": 4,
         "name": "غذای سالم فوپک",
-        "image": "/assets/foodCategory/website_image_irani_1.jpg",
-        "headerImage": "",
+        "image": "/assets/newInSf/profile/670fa130b48d4.jpg",
+        "headerImage": "/assets/newInSf/header/67124ef179702.jpg",
         "score": "۴۰",
         "category": "ساندویچ، فست فود، سالاد",
-        "express": false,
+        "express": true,
         "deliveryPrice": "۳۵،۰۰۰ تومان"
       }
   ]
