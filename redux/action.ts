@@ -47,3 +47,27 @@ export const fetchgetAllGiftItem = createAsyncThunk(
     return data.data; // Adjust according to your JSON structure
   }
 );
+
+export const fetchgetAllSpecialTaste = createAsyncThunk(
+  'SpecialTastes/allSpecialTastes',
+  async () => {
+    const response = await fetch('/SpecialTaste.json');
+    if (!response.ok) {
+      throw new Error(`Error: ${response.status} ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data.data; // Adjust according to your JSON structure
+  }
+);
+
+export const fetchgetAllFreeDelivery = createAsyncThunk(
+  'FreeDeliverys/allFreeDeliverys',
+  async () => {
+    const response = await fetch('/FreeDelivery.json');
+    if (!response.ok) {
+      throw new Error(`Error: ${response.status} ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data.data; // Adjust according to your JSON structure
+  }
+);

@@ -1,0 +1,49 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "رستوران روحی (تجریش)",
+        "image": "/assets/specialTaste/profile/60477822b82bc.jpg",
+        "headerImage": "/assets/specialTaste/header/663b8a5d3c033.png",
+        "star": "۴.۳",
+        "score": "۳۴،۳۴۲",
+        "category": "ایرانی، ته چین ، پیش غذا",
+        "express": true,
+        "deliveryPrice": "۳۵،۰۰۰ تومان"
+      },
+      {
+          "id": 2,
+          "name": " سوشی ژاپنی ایچی بان",
+          "image": "/assets/specialTaste/profile/65721f40d5fe7.jpg",
+          "headerImage": "/assets/specialTaste/header/65de3be3e8d3c.jpg",
+          "score": "۱۲،۳۴۵",
+          "star": "۳.۳",
+          "category": " بین الملل، آسیایی، نودل",
+          "express": false,
+          "deliveryPrice": "۳۵،۰۰۰ تومان"
+        },
+        {
+          "id": 3,
+          "name": " شاندیز بین الملل ولنجک",
+          "image": "/assets/specialTaste/profile/5cd6b92b2423f.jpg",
+          "headerImage": "/assets/specialTaste/header/5d999605453d1.jpg",
+          "score": "۱،۲۳۴",
+          "star": "۴.۷",
+          "category": "پیش غذا و سالاد، نوشیدنی",
+          "express": false,
+          "deliveryPrice": "۳۵،۰۰۰ تومان"
+        },
+        {
+          "id": 4,
+          "name": "سوشی آی (تجریش)",
+          "image": "/assets/specialTaste/profile/630b1f8401d7e.png",
+          "headerImage": "/assets/specialTaste/header/65251afd77584.jpg",
+          "score": "۳،۴۵۶",
+          "star": "۴.۰",
+          "category": "بین الملل، آسیایی، سالاد ",
+          "express": true,
+          "deliveryPrice": "۳۵،۰۰۰ تومان"
+        }
+    ]
+  }
+  
