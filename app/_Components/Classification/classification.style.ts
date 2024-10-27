@@ -30,7 +30,7 @@ export const ProductItem = styled.div`
 `;
 export const Wrapper = styled.div`
   direction: rtl;
-  padding: 4.5%;
+  padding:4.5% 4.5% 6.5% 4.5%;
 `;
 export const CategoryName = styled.span`
   position: absolute;

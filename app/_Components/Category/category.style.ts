@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProductWrapper = styled.div`
   display: flex;
-  padding: 1%;
+  padding:1%;
   direction: rtl;
   box-shadow: rgba(58, 61, 66, 0.06) 0px 1px 0px,
     rgba(0, 0, 0, 0.05) 0px 2px 8px -2px;

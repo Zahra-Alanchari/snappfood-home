@@ -1,17 +1,12 @@
 import ExpressDelivery from "@/public/assets/icon/ExpressDelivery";
 import OwnDelivery from "@/public/assets/icon/OwnDelivery";
 import Star from "@/public/assets/icon/Star";
-import { fetchgetAllNewItem } from "@/redux/action";
-import { AppDispatch } from "@/redux/store";
-import { RootState } from "@/type";
 import Image from "next/image";
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
   direction: rtl;
-  padding: 4.5%;
+  padding:0 4.5%;
 `;
 
 const NewInSnappFoodWrapper = styled.div`
@@ -91,19 +86,19 @@ const DeliveryWrapper = styled.div`
   border-radius: 72px;
 `;
 
-const NewInSnappFood = () => {
-  const dispatch = useDispatch<AppDispatch>();
-  const data = useSelector((state: RootState) => state.newItem.newItem);
+const NewInSnappFood = ({data , title}) => {
+  // const dispatch = useDispatch<AppDispatch>();
+  // const data = useSelector((state: RootState) => state.newItem.newItem);
 
-  useEffect(() => {
-    dispatch(fetchgetAllNewItem());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(fetchgetAllNewItem());
+  // }, [dispatch]);
 
   return (
     <Wrapper>
       <p style={{ fontSize: "24px", fontWeight: "700" }}>
         {" "}
-        تازه ها در اسنپ فود
+        {title}
       </p>
       <NewInSnappFoodWrapper>
         {data.slice(0, 4).map((item) => (
@@ -124,7 +119,7 @@ const NewInSnappFood = () => {
               <InfoStar>
                 {" "}
                 <Star />
-                جدید{" "}
+                <span>{item.star? item.star :"جدید"}</span>
                 {item.score && (
                   <span
                     style={{ fontSize: "12px", color: "rgb(166, 170, 173)" }}

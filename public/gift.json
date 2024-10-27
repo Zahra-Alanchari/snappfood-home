@@ -1,0 +1,49 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "کافه لوی (فرشته)",
+        "image": "/assets/newInSf/profile/67024b6b62322.jpg",
+        "headerImage": "/assets/newInSf/header/05-2.jpg",
+        "star": "۴.۳",
+        "score": "۳۴،۳۴۲",
+        "category": "صبحانه، سیمیت ، کروسان",
+        "express": false,
+        "deliveryPrice": "۳۵،۰۰۰ تومان"
+      },
+      {
+          "id": 2,
+          "name": " پیتزا خاتون (زعفرانیه)",
+          "image": "/assets/newInSf/profile/670136f1bed04.jpg",
+          "headerImage": "/assets/newInSf/header/20.jpg",
+          "score": "۱۲،۳۴۵",
+          "star": "۳.۳",
+          "category": "فست فود، پیتزا ایتالیایی",
+          "express": true,
+          "deliveryPrice": "۳۵،۰۰۰ تومان"
+        },
+        {
+          "id": 3,
+          "name": " کافه رییس (فودکورت پالادیوم)",
+          "image": "/assets/newInSf/profile/66f8fc321176b.jpg",
+          "headerImage": "/assets/newInSf/header/07.jpg",
+          "score": "۱،۲۳۴",
+          "star": "۴.۷",
+          "category": "کافه، قهوه",
+          "express": false,
+          "deliveryPrice": "۳۵،۰۰۰ تومان"
+        },
+        {
+          "id": 4,
+          "name": "تومو (فرشته)",
+          "image": "/assets/newInSf/profile/670fa130b48d4.jpg",
+          "headerImage": "/assets/newInSf/header/67124ef179702.jpg",
+          "score": "۳،۴۵۶",
+          "star": "۴.۰",
+          "category": "صبحانه، پیتزا",
+          "express": true,
+          "deliveryPrice": "۳۵،۰۰۰ تومان"
+        }
+    ]
+  }
+  

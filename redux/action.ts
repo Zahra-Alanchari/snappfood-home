@@ -35,3 +35,15 @@ export const fetchgetAllNewItem = createAsyncThunk(
     return data.data; // Adjust according to your JSON structure
   }
 );
+
+export const fetchgetAllGiftItem = createAsyncThunk(
+  'GiftItems/allGiftItems',
+  async () => {
+    const response = await fetch('/gift.json');
+    if (!response.ok) {
+      throw new Error(`Error: ${response.status} ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data.data; // Adjust according to your JSON structure
+  }
+);
