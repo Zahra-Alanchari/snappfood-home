@@ -30,7 +30,7 @@ const BodyWrapper = styled.div`
 `;
 const FooterWrapper =styled.div`
   background-color: white;
-  padding-bottom: 20vh;
+  /* padding-bottom: 20vh; */
   
 `
 export default function Home() {

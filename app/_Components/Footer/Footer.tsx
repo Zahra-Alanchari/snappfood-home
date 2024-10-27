@@ -1,4 +1,6 @@
+import AboutSnappFood from "../AboutSnappFood/AboutSnappFood";
 import BussinesOwner from "../BussinesOwner/BussinesOwner";
+import Cities from "../Cities/Cities";
 import Connection from "../Connection/Connection";
 
 const Footer = () => {
@@ -6,6 +8,8 @@ const Footer = () => {
     <>
       <Connection />
       <BussinesOwner/>
+      <Cities/>
+      <AboutSnappFood/>
     </>
   );
 };

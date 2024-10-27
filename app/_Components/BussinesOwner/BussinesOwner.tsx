@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   border-radius: 2rem;
   width: 1295px;
   height: 331px;
-  margin: 0rem auto 0 auto;
+  margin: 0rem auto 50px auto;
   direction: rtl;
 `;
 const BusnessWrapper = styled.div`
