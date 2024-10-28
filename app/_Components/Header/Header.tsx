@@ -6,13 +6,8 @@ import Order from "../Orders/Order";
 import Address from "../Address/Address";
 import styled from "styled-components";
 import SnappFood from "@/public/assets/icon/SnappFood";
-const Wrapperx = styled.div`
-  height: 8.8vh;
-  display: flex;
-  direction: rtl;
-  align-items: center;
-  margin-right: 10px;
-`;
+import { Wrapperx } from "./header.style";
+
 
 const Header = () => {
   return (

@@ -1,12 +1,14 @@
 import ExpressDelivery from "@/public/assets/icon/ExpressDelivery";
+import GreenIcon from "@/public/assets/icon/GreenIcon";
 import OwnDelivery from "@/public/assets/icon/OwnDelivery";
 import Star from "@/public/assets/icon/Star";
 import Image from "next/image";
 import styled from "styled-components";
+import React from "react";
 
 const Wrapper = styled.div`
   direction: rtl;
-  padding:0 4.5%;
+  padding: 0 4.5%;
 `;
 
 const NewInSnappFoodWrapper = styled.div`
@@ -86,23 +88,27 @@ const DeliveryWrapper = styled.div`
   border-radius: 72px;
 `;
 
-const NewInSnappFood = ({data , title}) => {
-  // const dispatch = useDispatch<AppDispatch>();
-  // const data = useSelector((state: RootState) => state.newItem.newItem);
+const Title = styled.div`
+display: flex;
+justify-content: space-between;
+  & p{
+    font-size: 24px;
+    font-weight:bolder;
+  
+  }
+`
 
-  // useEffect(() => {
-  //   dispatch(fetchgetAllNewItem());
-  // }, [dispatch]);
+const NewInSnappFood = ({ data, title }) => {
 
   return (
     <Wrapper>
-      <p style={{ fontSize: "24px", fontWeight: "700" }}>
-        {" "}
-        {title}
-      </p>
+      <Title>
+        <p > {title}</p>
+        <p style={{color:"rgb(0, 184, 98);"}}>مشاهده همه <GreenIcon/></p>
+      </Title>
       <NewInSnappFoodWrapper>
         {data.slice(0, 4).map((item) => (
-          <NewItem>
+          <NewItem key={item.id}>
             <div>
               <Image
                 src={item.headerImage}
@@ -119,7 +125,7 @@ const NewInSnappFood = ({data , title}) => {
               <InfoStar>
                 {" "}
                 <Star />
-                <span>{item.star? item.star :"جدید"}</span>
+                <span>{item.star ? item.star : "جدید"}</span>
                 {item.score && (
                   <span
                     style={{ fontSize: "12px", color: "rgb(166, 170, 173)" }}

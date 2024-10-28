@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 const BodyWrapper = styled.div`
   padding-top: 24vh;
   background-color: white;
-  padding-bottom: 20vh;
+  padding-bottom: 25vh;
 `;
 const FooterWrapper =styled.div`
   background-color: white;  
@@ -62,8 +62,8 @@ export default function Home() {
         <NewInSnappFood data={specialTasteData} title={" مزه های خاص"} />
         <NewInSnappFood data={freeDeliveryData} title={" ارسال رایگان"} />
         <NewInSnappFood data={giftData} title={" یک تجربه جدید"} />
-        <NewInSnappFood data={giftData} title={"دارای کوپن سفارش اول "} />
-        <NewInSnappFood data={giftData} title={" فقط در اسنپ فود"} />
+        <NewInSnappFood data={freeDeliveryData} title={"دارای کوپن سفارش اول "} />
+        <NewInSnappFood data={specialTasteData} title={" فقط در اسنپ فود"} />
       </BodyWrapper>
       <FooterWrapper>
         <Footer />

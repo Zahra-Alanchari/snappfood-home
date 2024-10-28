@@ -1,11 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Profile from "@/public/assets/icon/Profile";
+import { ProfileInfoWrapper } from "./profileInfo.style";
 
-const ProfileInfoWrapper = styled.div`
-  display: flex;
-  flex-grow: 0.1;
-`;
+
 
 const ProfileInfo = () => {
   return (

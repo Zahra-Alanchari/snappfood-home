@@ -2,12 +2,9 @@ import React from "react";
 
 import styled from "styled-components";
 import OrderIcon from "@/public/assets/icon/OrderIcon";
+import { OrderWrapper } from "./order.style";
 
-const OrderWrapper = styled.div`
-  display: flex;
-  flex-grow: .1;
-  margin-right:50px;
-`;
+
 
 const Order = () => {
   return (

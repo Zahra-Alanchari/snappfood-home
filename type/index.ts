@@ -7,7 +7,22 @@ export interface RootState {
     item: Product["data"];
     id: number | null;
   };
- 
+  newItem: {
+    newItem: Product["data"];
+    id: number | null;
+  };
+  giftItem: {
+    giftItem: Product["data"];
+    id: number | null;
+  };
+  specialTaste: {
+    specialTaste: Product["data"];
+    id: number | null;
+  };
+  freeDelivery: {
+    freeDelivery: Product["data"];
+    id: number | null;
+  };
 }
 
 export interface Product {
@@ -19,5 +34,11 @@ export interface ProductDetail {
   name: string;
   hasOff: boolean;
   image: string;
-
+  headerImage: string;
+  score: string;
+  express: boolean;
+  deliveryPrice: string;
+  star: string;
+  off: string;
+  copon: string;
 }

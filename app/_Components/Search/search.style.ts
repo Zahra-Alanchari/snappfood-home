@@ -20,13 +20,13 @@ export const SearchWrapper = styled.div`
 `;
 export const Wrapper = styled.div`
   position: relative;
-  margin:0 110px 0 320px;
+  margin:0 86px 0 320px;
 `;
 
 export const SearchIconWrapper = styled.div`
     position: absolute;
     right: 15px;
-    top: 50%;
+    top: 59%;
     transform: translateY(-50%);
 
 `
