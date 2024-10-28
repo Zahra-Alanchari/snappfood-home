@@ -1,10 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 import productReducer from './slice'
-import categoryReducer from './data2slice'
-import newReducer from './data3slice'
-import giftReducer from './data4slice'
-import specialTasteReducer from './data5slice'
-import freeDeliveryReducer from './data6slice'
+import categoryReducer from './categoryslice'
+import newReducer from './newItemslice'
+import giftReducer from './cartslice'
 
 
 const store = configureStore({
@@ -13,8 +11,7 @@ const store = configureStore({
         item:categoryReducer,
         newItem:newReducer,
         giftItem:giftReducer,
-        specialTaste:specialTasteReducer,
-        freeDelivery:freeDeliveryReducer,
+        
 
     }
 })
