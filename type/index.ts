@@ -15,14 +15,7 @@ export interface RootState {
     giftItem: Product["data"];
     id: number | null;
   };
-  specialTaste: {
-    specialTaste: Product["data"];
-    id: number | null;
-  };
-  freeDelivery: {
-    freeDelivery: Product["data"];
-    id: number | null;
-  };
+  
 }
 
 export interface Product {
@@ -40,6 +33,6 @@ export interface ProductDetail {
   express: boolean;
   deliveryPrice: string;
   star: string;
-  off: string;
-  copon: string;
+  // off: string;
+  // copon: string;
 }
