@@ -110,7 +110,7 @@ const NewInSnappFood: React.FC<Product> = ({ data, title }) => {
         <p style={{color:"rgb(0, 184, 98);"}}>مشاهده همه <GreenIcon/></p>
       </Title>
       <NewInSnappFoodWrapper>
-        {data.slice(0, 4).map((item) => (
+        {data.map((item) => (
           <NewItem key={item.id}>
             <div>
               <Image

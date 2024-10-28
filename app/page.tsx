@@ -58,8 +58,8 @@ export default function Home() {
       <BodyWrapper>
         <Classification />
         <NewInSnappFood data={data} title={"تازه ها در اسنپ فود"} />
-        <NewInSnappFood data={giftData} title={"جایزه خرید"} />
-        <NewInSnappFood data={specialTasteData} title={" مزه های خاص"} />
+        <NewInSnappFood data={giftData.slice(0, 4)} title={"جایزه خرید"} />
+        <NewInSnappFood data={giftData.slice(4,8)} title={" مزه های خاص"} />
         <NewInSnappFood data={freeDeliveryData} title={" ارسال رایگان"} />
         <NewInSnappFood data={giftData} title={" یک تجربه جدید"} />
         <NewInSnappFood data={freeDeliveryData} title={"دارای کوپن سفارش اول "} />
