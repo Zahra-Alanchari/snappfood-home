@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Provider } from "react-redux";
 import "../style.css";
-import Head from "next/head";
+// import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,10 +16,10 @@ export default function RootLayout({
   return (
     <Provider store={store}>
       <html lang="en">
-      <Head>
+      {/* <Head>
           <title>اسنپ فود| سفارش انلاین غذا از تمامی رستوران ها و فست فودها</title> 
           <meta name="description" content="Description" />
-        </Head> 
+        </Head>  */}
         <body
           style={{
             margin: "0",
