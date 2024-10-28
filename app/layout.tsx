@@ -1,12 +1,11 @@
 "use client";
 import store from "@/redux/store";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Provider } from "react-redux";
 import "../style.css";
-// import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
+
 
 export default function RootLayout({
   children,
@@ -16,10 +15,6 @@ export default function RootLayout({
   return (
     <Provider store={store}>
       <html lang="en">
-      {/* <Head>
-          <title>اسنپ فود| سفارش انلاین غذا از تمامی رستوران ها و فست فودها</title> 
-          <meta name="description" content="Description" />
-        </Head>  */}
         <body
           style={{
             margin: "0",
@@ -28,6 +23,7 @@ export default function RootLayout({
             backgroundColor: "#FF38AC",
           }}
         >
+          <link rel="icon" href="/favicon.png" sizes="16*16"  />
           {children}
         </body>
       </html>

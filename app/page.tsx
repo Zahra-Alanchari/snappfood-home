@@ -2,7 +2,6 @@
 import Category from "./_Components/Category/Category";
 import Header from "./_Components/Header/Header";
 import Classification from "./_Components/Classification/Classification";
-// import NewInSnappFood from "./_Components/NewInSnappFood/NewInSnappFood";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch } from "@/redux/store";
@@ -39,6 +38,8 @@ export default function Home() {
 
   return (
     <>
+      <title>اسنپ فود| سفارش انلاین غذا از تمامی رستوران ها و فست فودها</title>
+
       <Wrapper>
         <Header />
         <Category />
@@ -50,14 +51,8 @@ export default function Home() {
         <Carts data={giftData.slice(4, 8)} title={" مزه های خاص"} />
         <Carts data={giftData.slice(8, 12)} title={" ارسال رایگان"} />
         <Carts data={giftData.slice(0, 4)} title={" یک تجربه جدید"} />
-        <Carts
-          data={giftData.slice(8, 12)}
-          title={"دارای کوپن سفارش اول "}
-        />
-        <Carts
-          data={giftData.slice(4, 8)}
-          title={" فقط در اسنپ فود"}
-        />
+        <Carts data={giftData.slice(8, 12)} title={"دارای کوپن سفارش اول "} />
+        <Carts data={giftData.slice(4, 8)} title={" فقط در اسنپ فود"} />
       </BodyWrapper>
       <FooterWrapper>
         <Footer />
