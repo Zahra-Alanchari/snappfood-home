@@ -395,6 +395,42 @@
           "deliveryPrice": "رایگان "
         }
       ]
+    },
+    {
+      "id": 12,
+      "category": "ajil",
+      "name": "آجیل",
+      "image": "/assets/header/nuts-desktop.png",
+      "includes": [
+        {
+          "name": "چلوپز(زعفرانیه)",
+          "hasOff": true,
+          "profile": "",
+          "header": "",
+          "score": "4.3 ۱۳،۹۹۱ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": true,
+          "deliveryPrice": "۲۱،۰۰۰ تومان"
+        },
+        {
+          "name": "مطبخ همایونی",
+          "profile": "",
+          "header": "",
+          "score": "4.4 ۲۸،۰۴۳ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، چلوکباب",
+          "express": false,
+          "deliveryPrice": "۲۵،۰۰۰ تومان"
+        },
+        {
+          "name": "پیتزا شیلا(ولنجک)",
+          "profile": "",
+          "header": "",
+          "score": "4.8 ۴۹،۱۲۸ امتیاز",
+          "description": "نوشیدنی شرکتی، نوشیدنی، پیتزا",
+          "express": false,
+          "deliveryPrice": "رایگان "
+        }
+      ]
     }
   ]
 }

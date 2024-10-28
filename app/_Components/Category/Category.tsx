@@ -4,7 +4,8 @@ import { RootState } from "@/type";
 import Image from "next/image";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { ProductItem, ProductWrapper } from "./category.style";
+import { NextButton, ProductItem, ProductWrapper } from "./category.style";
+import Flas from "@/public/assets/icon/Flas";
 
 
 
@@ -23,6 +24,7 @@ const Category = () => {
           <span>{item.name}</span>
         </ProductItem>
       ))}
+      <NextButton><Flas/></NextButton>
     </ProductWrapper>
   );
 };

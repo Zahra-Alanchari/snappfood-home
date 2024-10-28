@@ -9,8 +9,8 @@ const Flas = () => {
   return (
     <SvgImage
       xmlns="http://www.w3.org/2000/svg"
-      width="6.58"
-      height="11.17"
+      width="10.58"
+      height="13.17"
       viewBox="0 0 9 16"
       fill="#dd2ad1"
     >

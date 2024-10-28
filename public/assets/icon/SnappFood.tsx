@@ -4,8 +4,8 @@ const SnappFood = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="81.65"
-      height="41.73"
+      width="70.65"
+      height="36.73"
       viewBox="0 0 56 28"
       fill="none"
     >

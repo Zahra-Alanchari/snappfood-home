@@ -24,14 +24,12 @@ const Wrapper = styled.div`
 `;
 
 const BodyWrapper = styled.div`
-  padding-top: 25vh;
+  padding-top: 15vh;
   background-color: white;
   padding-bottom: 20vh;
 `;
 const FooterWrapper =styled.div`
-  background-color: white;
-  /* padding-bottom: 20vh; */
-  
+  background-color: white;  
 `
 export default function Home() {
   const dispatch = useDispatch<AppDispatch>();

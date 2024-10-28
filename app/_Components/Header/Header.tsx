@@ -3,21 +3,21 @@ import React from "react";
 import Search from "../Search/Search";
 import ProfileInfo from "../ProfileInfo/ProfileInfo";
 import Order from "../Orders/Order";
-import SfLogo from "../SfLogo/SfLogo";
 import Address from "../Address/Address";
 import styled from "styled-components";
+import SnappFood from "@/public/assets/icon/SnappFood";
 const Wrapperx = styled.div`
-  height: 10vh;
+  height: 6vh;
   display: flex;
   direction: rtl;
   align-items: center;
-  justify-content: space-between;
+  margin-right: 10px;
 `;
 
 const Header = () => {
   return (
     <Wrapperx>
-      <SfLogo />
+      <SnappFood/>
       <Address />
       <Search />
       <ProfileInfo />
