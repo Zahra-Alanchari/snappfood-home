@@ -6,7 +6,6 @@ import "../style.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
 export default function RootLayout({
   children,
 }: {
@@ -23,7 +22,7 @@ export default function RootLayout({
             backgroundColor: "#FF38AC",
           }}
         >
-          <link rel="icon" href="/favicon.png" sizes="16*16"  />
+          <link rel="icon" href="/favicon.png" sizes="16*16" />
           {children}
         </body>
       </html>
