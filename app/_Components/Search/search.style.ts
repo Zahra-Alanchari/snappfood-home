@@ -20,7 +20,7 @@ export const SearchWrapper = styled.div`
 `;
 export const Wrapper = styled.div`
   position: relative;
-  margin:0 110px 0 260px;
+  margin:0 110px 0 320px;
 `;
 
 export const SearchIconWrapper = styled.div`

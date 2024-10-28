@@ -24,7 +24,7 @@ const Wrapper = styled.div`
 `;
 
 const BodyWrapper = styled.div`
-  padding-top: 15vh;
+  padding-top: 24vh;
   background-color: white;
   padding-bottom: 20vh;
 `;
