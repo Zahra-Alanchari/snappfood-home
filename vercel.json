@@ -5,6 +5,10 @@
         "destination": "/data.json"
       },
       {
+        "source": "/freeDelivery.json",
+        "destination": "/freeDelivery.json"
+      },
+      {
         "source": "/:path*",
         "destination": "/:path*"
       },
