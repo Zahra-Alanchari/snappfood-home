@@ -27,6 +27,7 @@ export interface RootState {
 
 export interface Product {
   data: Array<ProductDetail>;
+  title: string
 }
 export interface ProductDetail {
   id: number;

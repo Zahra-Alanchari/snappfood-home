@@ -5,6 +5,8 @@ import Star from "@/public/assets/icon/Star";
 import Image from "next/image";
 import styled from "styled-components";
 import React from "react";
+import { RootState } from "@reduxjs/toolkit/query";
+import { Product } from "@/type";
 
 const Wrapper = styled.div`
   direction: rtl;
@@ -98,7 +100,8 @@ justify-content: space-between;
   }
 `
 
-const NewInSnappFood = ({ data, title }) => {
+
+const NewInSnappFood: React.FC<Product> = ({ data, title }) => {
 
   return (
     <Wrapper>
