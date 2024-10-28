@@ -7,8 +7,9 @@ import Twitter from "@/public/assets/icon/Twitter";
 import Image from "next/image";
 import React from "react";
 import senf from "@/public/assets/Logo/senf.png";
-// import { Wrapper } from "./aboutSnappFood.style";
 import { ContentWrapper, Lgo, Social, SocialLogo, Wrapper } from "./aboutSnappFood.style";
+// import { Wrapper } from "./aboutSnappFood.style";
+// import { ContentWrapper, Lgo, Social, SocialLogo, Wrapper } from "./aboutSnappFood.style";
 
 const AboutSnappFood = () => {
   return (

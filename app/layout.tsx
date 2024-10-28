@@ -5,8 +5,6 @@ import { Inter } from "next/font/google";
 import { Provider } from "react-redux";
 import "../style.css";
 import Head from "next/head";
-// import { Head } from "next/document";
-
 
 const inter = Inter({ subsets: ["latin"] });
 
