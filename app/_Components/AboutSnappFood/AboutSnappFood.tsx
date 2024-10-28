@@ -7,7 +7,6 @@ import Twitter from "@/public/assets/icon/Twitter";
 import Image from "next/image";
 import React from "react";
 import senf from "@/public/assets/Logo/senf.png";
-
 import styled from "styled-components";
 
  const Wrapper = styled.div`
