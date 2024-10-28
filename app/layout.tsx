@@ -23,6 +23,7 @@ export default function RootLayout({
           }}
         >
           <link rel="icon" href="/favicon.png" sizes="16*16" />
+          <link rel="apple-touch-icon" href="/favicon.png" sizes="16*16" />
           {children}
         </body>
       </html>
