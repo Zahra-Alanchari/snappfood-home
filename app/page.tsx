@@ -60,10 +60,10 @@ export default function Home() {
         <NewInSnappFood data={data} title={"تازه ها در اسنپ فود"} />
         <NewInSnappFood data={giftData.slice(0, 4)} title={"جایزه خرید"} />
         <NewInSnappFood data={giftData.slice(4,8)} title={" مزه های خاص"} />
-        <NewInSnappFood data={freeDeliveryData} title={" ارسال رایگان"} />
-        <NewInSnappFood data={giftData} title={" یک تجربه جدید"} />
-        <NewInSnappFood data={freeDeliveryData} title={"دارای کوپن سفارش اول "} />
-        <NewInSnappFood data={specialTasteData} title={" فقط در اسنپ فود"} />
+        <NewInSnappFood data={giftData.slice(8,12)} title={" ارسال رایگان"} />
+        <NewInSnappFood data={giftData.slice(0, 4)} title={" یک تجربه جدید"} />
+        <NewInSnappFood data={giftData.slice(8,12)} title={"دارای کوپن سفارش اول "} />
+        <NewInSnappFood data={giftData.slice(4,8)} title={" فقط در اسنپ فود"} />
       </BodyWrapper>
       <FooterWrapper>
         <Footer />
